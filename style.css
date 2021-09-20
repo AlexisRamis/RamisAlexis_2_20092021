@@ -8,7 +8,6 @@ header{
 }
 a {
     text-decoration : none;
-    color:#0065FC ;
 }
 /*header */
 .menu{
@@ -18,9 +17,42 @@ a {
 .menu li{
     padding : 30px;
     list-style:none;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 14px;    
     }
 .menu li:hover{
     border-top:#0065FC solid 2px;
+}
+header a{
+    color:#0065FC;
+}
+/*sections*/
+#search, #accommodation, #activity{
+    height: 250px;
+}
+#search{
+    background-color: coral;
+}
+#accommodation{
+    background-color: crimson;
+}
+#activity{
+    background-color: darkkhaki;
+}
+/*footer*/
+footer{
+    display: flex;
+    background-color:#F2F2F2;
+    font-size: 12px;
+    }
+footer section{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 35px;
+    margin-top: 10px;
+}    
+footer a{
+    color: black;
+    padding-bottom: 10px;
 }
