@@ -23,11 +23,11 @@ a {
 .menu li:hover{
     border-top:#0065FC solid 2px;
 }
-header a{
+header a, .blue-star{
     color:#0065FC;
 }
 /*sections*/
-#search, #accommodation, #activity{
+#search, #activity{
     height: 250px;
 }
 #search{
@@ -36,8 +36,54 @@ header a{
 #accommodation{
     background-color: crimson;
 }
+h2{
+    margin-left: 9%;
+    padding-top: 25px;
+}
+#accommodation article{
+    width: 70%;
+    background-color:#F2F2F2;
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+#marseille{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-acmdt img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    height: 110px;
+    object-fit: cover;
+}
+.img-acmdt{
+    background-color: white;
+    width: 25%;
+    border: white 5px solid;
+    border-radius: 20px;
+    margin: 15px;
+}
+.grey-star{
+    color:#F2F2F2;
+}
+
+.img-acmdt figcaption{
+    margin-left: 10px;
+}
+.img-acmdt span{
+    font-weight: bold;
+}
 #activity{
     background-color: darkkhaki;
+}
+.more{
+    font-size: 14px;
+    font-weight: 900;
+    color: black;
+    margin-left: 9%;
+    padding-bottom: 25px;
 }
 /*footer*/
 footer{
