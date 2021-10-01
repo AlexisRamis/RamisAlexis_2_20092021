@@ -6,8 +6,14 @@ header{
     display: flex;
     justify-content: space-between;
 }
-a {
+a{
     text-decoration : none;
+}
+figure{
+    margin: 0;
+}
+h3, p{
+    color: black;
 }
 /*header */
 .menu{
@@ -90,7 +96,7 @@ header a, .blue-star{
     border-radius: 50px;
     width: 20px;
     color: #0065FC;
-    background-color: #F2F2F2;
+    background-color: #DEEBFF;
     padding: 20px;
     margin-left: -10px;
 }
@@ -110,9 +116,6 @@ header a, .blue-star{
     text-align: center;
 }
 /*hotel-popular*/
-#activity{
-    height: 250px;
-}
 #accommodation{
     display: flex;
     justify-content: space-between;
@@ -144,7 +147,7 @@ header a, .blue-star{
     flex-wrap: wrap;
     justify-content: center;
 }
-.img-acmdt img, .img-pop img{
+.img-acmdt img, .img-pop img, .img-activity img{
     object-fit: cover;
 }
 .img-acmdt img{
@@ -161,6 +164,8 @@ header a, .blue-star{
     border: white 5px solid;
     border-radius: 20px;
     margin: 15px;
+
+    box-shadow: 2px 2px 5px #D9D9D9;
 }
 .img-acmdt{
     width: 25%;
@@ -182,15 +187,48 @@ header a, .blue-star{
 .img-acmdt span, .img-pop span{
     font-weight: bold;
 }
-#activity{
-    background-color: darkkhaki;
-}
 .more{
     font-size: 14px;
     font-weight: 900;
     color: black;
     margin-left: 9%;
     padding-bottom: 25px;
+}
+.more a{
+    color: black;
+}
+/*activity*/
+#activity{
+    margin-top: 60px;
+}
+.activity-section{
+    display: flex;
+    justify-content: space-between;
+}
+#activity article{
+    width: 28%;
+}
+.img-activity img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.img-activity figure{
+    background-color: white;
+    border: white 5px solid;
+    border-radius: 20px;
+    margin-bottom: 22px;
+    margin-right: 15px;
+    
+    box-shadow: 2px 2px 5px #D9D9D9;
+}
+.img-size-l{
+    height: 450px;
+}
+.img-size-m{
+    height: 200px;
+}
+.img-size-s{
+    height: 150px;
 }
 /*footer*/
 footer{
