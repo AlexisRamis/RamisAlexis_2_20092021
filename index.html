@@ -11,7 +11,7 @@
 </head>
 <body>
   <header>
-      <figure>
+      <figure class="logo">
         <img src="images/logo/Reservia.svg" alt="Reservia">
       </figure>
       <nav>
@@ -23,7 +23,34 @@
     </nav>
   </header>
   <section id="search">
-
+    <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
+    <p class="search-description">En plein centre ville ou en pleine nature</p>
+    <form action="" method="get" class="search-bar">
+      <i class="fas fa-map-marker-alt"></i>
+      <input type="text" id="city" name="city" required
+       minlength="4" maxlength="20" value="Marseille, France">
+      <button type="submit">Rechercher</button>
+    </form>
+    <article id="filter">
+      <p>Filtres</p>
+      <div class="search-icon">
+        <i class="fas fa-money-bill-wave"></i>
+        <p>Economique</p>
+      </div>
+      <div class="search-icon">
+        <i class="fas fa-child"></i>
+        <p>Familial</p>
+      </div>
+      <div class="search-icon">
+        <i class="fas fa-heart"></i>
+        <p>Romantique</p>
+      </div>
+      <div class="search-icon">
+        <i class="fas fa-dog"></i>
+        <p>Animaux autorisés</p>
+      </div>
+    </article>
+    <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
   </section>
   <section id="accommodation">
     <article id="hotel">
@@ -194,7 +221,7 @@
   </section>
   <footer> 
     <section>     
-     <h4>A propos</h4>     
+      <h4>A propos</h4>     
       <a href="https://openclassrooms.com">Fontionnement du site</a>
       <a href="https://openclassrooms.com">Condition générales de vente</a>
       <a href="https://openclassrooms.com">Données et confidentialité</a>   

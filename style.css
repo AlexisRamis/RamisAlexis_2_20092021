@@ -26,20 +26,98 @@ a {
 header a, .blue-star{
     color:#0065FC;
 }
+.logo{
+    margin-left: 0;
+}
 /*sections*/
 
-/*hotel-popular*/
-#search, #activity{
-    height: 250px;
-}
+/* search */
 #search{
-    background-color: coral;
+    margin-bottom: 50px;
+}
+#search article{
+    display: flex;
+    align-items: center;
+}
+#search h2{
+    margin-bottom: 0;
+}
+.search-description{
+    margin-top: 5px;
+}
+.search-bar input{
+    border-top: solid 1px #F2F2F2;
+    border-bottom: solid 1px #F2F2F2;
+    border-right: none;
+    border-left: none;
+    padding: 15px 40px 15px 5px;
+    margin-right: -2.5px;
+}
+.search-bar input, .search-bar button{
+    font-weight: 600;
+    font-size: 16px;
+}
+.search-bar i, .search-icon i{ 
+    background-color: #F2F2F2;
+    text-align: center;
+}
+.search-bar i{
+    border-radius: 15px 0 0 15px;
+    padding: 15px;
+}
+.search-bar button{
+    border-radius: 0 15px 15px 0;
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    padding: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.search-icon{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    border: 2px #F2F2F2 solid;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+.search-icon:hover{
+    background-color: #F2F2F2;
+}
+.search-icon i{
+    border-radius: 50px;
+    width: 20px;
+    color: #0065FC;
+    background-color: #F2F2F2;
+    padding: 20px;
+    margin-left: -10px;
+}
+.search-icon p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#filter p{
+    font-weight: bold;
+}
+.fa-info{
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    width: 15px;
+    padding: 10px;
+    border-radius: 100%;
+    text-align: center;
+}
+/*hotel-popular*/
+#activity{
+    height: 250px;
 }
 #accommodation{
     display: flex;
     justify-content: space-between;
 }
-h2{
+#accommodation h2, #popular h2{
     margin-left: 5.5%;
     padding-top: 25px;
     margin-right: 30px;
