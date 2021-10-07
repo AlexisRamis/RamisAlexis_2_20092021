@@ -230,6 +230,25 @@ header a, .blue-star{
 .img-size-s{
     height: 150px;
 }
+/*Responsive 1024px*/
+@media screen and (max-width: 1024px)
+{
+    body{
+        margin: 0 5% 0 10%;
+    }
+    #hotel{
+        width: 50%;
+    }
+    .img-acmdt{
+        width: 50%;
+    }
+    #popular{
+        width: 40%;
+    }
+    .img-pop{
+        height: 220px;
+    }
+}
 /*Responsive 768px*/
 @media screen and (max-width: 768px)
 {
@@ -249,7 +268,25 @@ header a, .blue-star{
         height: 220px;
     }
 }
-
+/*Responsive 425px*/
+@media screen and (max-width: 425px)
+{
+    body{
+        margin: 0 5% 0 25%;
+    }
+    #hotel{
+        width: 100%;
+    }
+    .img-acmdt{
+        width: 100%;
+    }
+    #popular{
+        width: 100%;
+    }
+    .img-pop{
+        height: 220px;
+    }
+}
 /*footer*/
 footer{
     display: flex;
