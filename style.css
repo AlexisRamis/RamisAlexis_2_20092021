@@ -230,6 +230,26 @@ header a, .blue-star{
 .img-size-s{
     height: 150px;
 }
+/*Responsive 768px*/
+@media screen and (max-width: 768px)
+{
+    body{
+        margin: 0 5% 0 10%;
+    }
+    #hotel{
+        width: 50%;
+    }
+    .img-acmdt{
+        width: 50%;
+    }
+    #popular{
+        width: 40%;
+    }
+    .img-pop{
+        height: 220px;
+    }
+}
+
 /*footer*/
 footer{
     display: flex;
