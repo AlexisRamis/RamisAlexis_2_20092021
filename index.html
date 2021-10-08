@@ -20,9 +20,12 @@
         </figure>
         <nav>
           <ul class="menu">
-              <li><a href="#accommodation">Hébergements</a></li>
-              <li><a href="#activity">Activités</a></li>
-              <li><a href="#">S'inscrire</a></li>
+            <div class="responsive-menu">
+              <li class="acmdt-menu"><a href="#accommodation">Hébergements</a></li>
+              <li class="activity-menu"><a href="#activity">Activités</a></li>
+            </div>
+              <div class="subscribe"><li><a href="#">S'inscrire</a></li>
+            </div>
           </ul>
       </nav>
     </header>
@@ -33,10 +36,11 @@
         <i class="fas fa-map-marker-alt"></i>
         <input type="text" id="city" name="city" required
         minlength="4" maxlength="20" value="Marseille, France">
-        <button type="submit">Rechercher</button>
+        <button type="submit"> <span class="search-text">Rechercher</span><i class="fas fa-search"></i> </button>
       </form>
       <article id="filter">
         <p>Filtres</p>
+        <div id="search-icons">
         <div class="search-icon">
           <i class="fas fa-money-bill-wave"></i>
           <p>Economique</p>
@@ -53,6 +57,7 @@
           <i class="fas fa-dog"></i>
           <p>Animaux autorisés</p>
         </div>
+      </div>
       </article>
       <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
     </section>
@@ -191,11 +196,13 @@
               <p>
                 Nuit à partir de 128<span>€</span>
               </p>
-              <i class="fas fa-star blue-star"></i>
-              <i class="fas fa-star blue-star"></i>
-              <i class="fas fa-star blue-star"></i>
-              <i class="fas fa-star blue-star"></i>
-              <i class="fas fa-star blue-star"></i>
+              <div>
+                <i class="fas fa-star blue-star"></i>
+                <i class="fas fa-star blue-star"></i>
+                <i class="fas fa-star blue-star"></i>
+                <i class="fas fa-star blue-star"></i>
+                <i class="fas fa-star blue-star"></i>
+              </div>
             </figcaption>
           </figure>
         </a>
@@ -209,11 +216,13 @@
               <p>
                 Nuit à partir de 71<span>€</span>
               </p>
-              <i class="fas fa-star blue-star"></i>
-              <i class="fas fa-star blue-star"></i>
-              <i class="fas fa-star blue-star"></i>
-              <i class="fas fa-star blue-star"></i>
-              <i class="fas fa-star grey-star"></i>
+              <div>
+                <i class="fas fa-star blue-star"></i>
+                <i class="fas fa-star blue-star"></i>
+                <i class="fas fa-star blue-star"></i>
+                <i class="fas fa-star blue-star"></i>
+                <i class="fas fa-star grey-star"></i>
+              </div>
             </figcaption>
           </figure>
         </a>
@@ -227,11 +236,13 @@
               <p>
                 Nuit à partir de 68<span>€</span>
               </p>
-              <i class="fas fa-star blue-star"></i>
-              <i class="fas fa-star blue-star"></i>
-              <i class="fas fa-star blue-star"></i>
-              <i class="fas fa-star blue-star"></i>
-              <i class="fas fa-star grey-star"></i>
+              <div>
+                <i class="fas fa-star blue-star"></i>
+                <i class="fas fa-star blue-star"></i>
+                <i class="fas fa-star blue-star"></i>
+                <i class="fas fa-star blue-star"></i>
+                <i class="fas fa-star grey-star"></i>
+              </div>
             </figcaption>
           </figure>
         </a>
