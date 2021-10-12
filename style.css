@@ -1,6 +1,6 @@
 body {
   font-family: "Raleway", sans-serif;
-  margin: 0 10% 0 10%;
+  margin: 0;
 }
 header {
   display: flex;
@@ -44,13 +44,14 @@ header a,
   color: #0065fc;
 }
 .logo {
-  margin-left: 0;
+  margin: 35px 0 0 35px;
 }
 /*sections*/
 
 /* search */
 #search {
   margin-bottom: 50px;
+  margin-left: 35px;
 }
 .fas.fa-search {
   display: none;
@@ -139,6 +140,7 @@ header a,
 #accommodation {
   display: flex;
   justify-content: space-between;
+  margin: 0 35px 0 35px;
 }
 #accommodation h2,
 #popular h2 {
@@ -232,7 +234,7 @@ header a,
 }
 /*activity*/
 #activity {
-  margin-top: 60px;
+  margin: 60px 35px 0 35px;
 }
 .activity-section {
   display: flex;
@@ -292,7 +294,7 @@ footer a {
 /*Responsive 1024px*/
 @media screen and (max-width: 1024px) {
   body {
-    margin: 0 5% 0 5%;
+    /*margin: 0 5% 0 5%;*/
   }
   #accommodation {
     flex-direction: column-reverse;
@@ -334,23 +336,29 @@ footer a {
     margin-top: 8px;
     margin-bottom: 5px;
   }
+  footer {
+    flex-direction: column;
+  }
+  footer section {
+    width: 90%;
+  }
 }
+/*Responsive 570px*/
 @media screen and (max-width: 570px) {
-  .logo img {
-    padding: 10px 0 0 20px;
+  .logo {
+    margin: 15px 0 0 15px;
   }
   .menu {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .menu ul {
     padding-inline-start: 0;
   }
   .subscribe {
     display: flex;
     justify-content: flex-end;
-    margin-right: 15px;
+    margin-right: 45px;
   }
   .subscribe a {
     font-weight: bold;
@@ -362,6 +370,10 @@ footer a {
   .responsive-menu {
     margin-left: -100%;
   }
+  #accommodation,
+  #activity {
+    margin: 35px 0 0 0px;
+  }
   .accommodation-menu {
     border-bottom: 2px solid #0065fc;
   }
@@ -370,6 +382,9 @@ footer a {
   }
   .activity-menu a {
     color: black;
+  }
+  #search {
+    margin-left: 15px;
   }
   .fas.fa-search {
     display: inherit;
@@ -380,17 +395,15 @@ footer a {
   .search-bar input {
     padding: 15px 10px 15px 5px;
   }
+  .search-icon h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .menu li {
     padding: 30px 0 30px 15px;
   }
   .search-icon {
     margin: 7px;
-  }
-  #search {
-    margin: 0 5% 0 5%;
-  }
-  body {
-    margin: 0;
   }
   #hotel {
     background: none;
