@@ -71,8 +71,9 @@ header a,
   border-bottom: solid 1px #f2f2f2;
   border-right: none;
   border-left: none;
-  padding: 15px 40px 15px 5px;
-  margin-right: -2.5px;
+  padding: 13.5px 40px 12.5px 5px;
+  margin-right: -4px;
+  margin-left: -4px;
 }
 .search-bar input,
 .search-bar button {
@@ -93,7 +94,8 @@ header a,
   border: none;
   background-color: #0065fc;
   color: white;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 13.5px;
   font-weight: 400;
   cursor: pointer;
 }
@@ -132,9 +134,10 @@ header a,
   color: #0065fc;
   border: 1px solid #f2f2f2;
   width: 15px;
-  padding: 10px;
+  padding: 5px;
   border-radius: 100%;
   text-align: center;
+  margin-right: 10px;
 }
 /*hotel-popular*/
 #accommodation {
@@ -370,6 +373,9 @@ footer a {
   .responsive-menu {
     margin-left: -100%;
   }
+  .bt-menu:hover {
+    border-top: none;
+  }
   #accommodation,
   #activity {
     margin: 35px 0 0 0px;
@@ -393,7 +399,7 @@ footer a {
     display: none;
   }
   .search-bar input {
-    padding: 15px 10px 15px 5px;
+    padding: 13.5px 10px 12.5px 5px;
   }
   .search-icon h4 {
     margin-left: 10px;
